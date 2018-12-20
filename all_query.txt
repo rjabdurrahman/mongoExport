@@ -4,42 +4,36 @@ mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c ExpoToken
 mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c ForgotPasswordRequests -u abhi.joyup -p M33tj0y^p -o ForgotPasswordRequests.json
 mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c IPs -u abhi.joyup -p M33tj0y^p -o IPs.json
 ***
-mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c IPs -u abhi.joyup -p M33tj0y^p -o IPs.json
-mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c IPs -u abhi.joyup -p M33tj0y^p -o IPs.json
-mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c IPs -u abhi.joyup -p M33tj0y^p -o IPs.json
-mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c IPs -u abhi.joyup -p M33tj0y^p -o IPs.json
-mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c IPs -u abhi.joyup -p M33tj0y^p -o IPs.json
-mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c IPs -u abhi.joyup -p M33tj0y^p -o IPs.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Items -u abhi.joyup -p M33tj0y^p -o Items.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Locations -u abhi.joyup -p M33tj0y^p -o Locations.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Marketing -u abhi.joyup -p M33tj0y^p -o Marketing.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Marketing_copy -u abhi.joyup -p M33tj0y^p -o Marketing_copy.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Markets -u abhi.joyup -p M33tj0y^p -o Markets.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Merchants -u abhi.joyup -p M33tj0y^p -o Merchants.json
+***
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c OrderNotifications -u abhi.joyup -p M33tj0y^p -o OrderNotifications.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Orders -u abhi.joyup -p M33tj0y^p -o Orders.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c PostHistories -u abhi.joyup -p M33tj0y^p -o PostHistories.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c prod -u abhi.joyup -p M33tj0y^p -o prod.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Questions -u abhi.joyup -p M33tj0y^p -o Questions.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Redemptions -u abhi.joyup -p M33tj0y^p -o Redemptions.json
+***
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Reports -u abhi.joyup -p M33tj0y^p -o Reports.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Reports_copy -u abhi.joyup -p M33tj0y^p -o Reports_copy.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Scheduler -u abhi.joyup -p M33tj0y^p -o Scheduler.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Segment -u abhi.joyup -p M33tj0y^p -o Segment.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c SegmentTags -u abhi.joyup -p M33tj0y^p -o SegmentTags.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Sessions -u abhi.joyup -p M33tj0y^p -o Sessions.json
+***
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c SignUps -u abhi.joyup -p M33tj0y^p -o SignUps.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c tuktuk -u abhi.joyup -p M33tj0y^p -o tuktuk.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c UserDevice -u abhi.joyup -p M33tj0y^p -o UserDevice.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Users -u abhi.joyup -p M33tj0y^p -o Users.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c users -u abhi.joyup -p M33tj0y^p -o users.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Users2 -u abhi.joyup -p M33tj0y^p -o Users2.json
+***
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Users_copy -u abhi.joyup -p M33tj0y^p -o Users_copy.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Users_gt_feb_18 -u abhi.joyup -p M33tj0y^p -o Users_gt_feb_18.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Vendors -u abhi.joyup -p M33tj0y^p -o Vendors.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Wallets -u abhi.joyup -p M33tj0y^p -o Wallets.json
 
-
-Items	4	false	22.42 KB	
-Locations	142	false	210.88 KB	
-Marketing	15	false	128.50 KB	
-Marketing_copy	9	false	29.84 KB	
-Markets	3	false	8.69 KB	
-Merchants	200	false	231.08 KB	
-OrderNotifications	474	false	253.55 KB	
-Orders	1,687	false	907.27 KB	
-PostHistories	1,292	false	614.47 KB	
-prod	1	false	8.97 KB	
-Questions	59	false	31.06 KB	
-Redemptions	399	false	117.47 KB	
-Reports	550	false	1.88 MB	
-Reports_copy	40	false	403.86 KB	
-Scheduler	323	false	238.91 KB	
-Segment	11	false	16.06 KB	
-SegmentTags	11	false	12.06 KB	
-Sessions	0	false	7.98 KB	
-SignUps	6	false	8.58 KB	
-tuktuk	4,571	false	259.14 MB	
-UserDevice	23	false	15.88 KB	
-Users	5,416	false	2.39 MB	
-users	1,764	false	8.88 MB	
-Users2	0	false	7.98 KB	
-Users_copy	3,986	false	1.63 MB	
-Users_gt_feb_18	3,274	false	1.29 MB	
-Vendors	8	false	11.36 KB	
-Wallets	118	false	71.63 KB	
-System Collections
-Name 	Documents 	Size
-system.indexes	55	8.39 KB	
