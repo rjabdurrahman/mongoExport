@@ -1,0 +1,43 @@
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c Appointments -u abhi.joyup -p M33tj0y^p -o Appointments.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c chat -u abhi.joyup -p M33tj0y^p -o chat.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c ExpoToken -u abhi.joyup -p M33tj0y^p -o ExpoToken.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c ForgotPasswordRequests -u abhi.joyup -p M33tj0y^p -o ForgotPasswordRequests.json
+mongoexport -h ds145091-a0.mlab.com:45091 -d heroku_ckbhgr9b_gcloud -c IPs -u abhi.joyup -p M33tj0y^p -o IPs.json
+
+
+Appointments	59	false	44.55 KB	
+chat	0	false	7.98 KB	
+ExpoToken	12	false	10.80 KB	
+ForgotPasswordRequests	101	false	31.66 KB	
+IPs	1	false	8.09 KB	
+Items	4	false	22.42 KB	
+Locations	142	false	210.88 KB	
+Marketing	15	false	128.50 KB	
+Marketing_copy	9	false	29.84 KB	
+Markets	3	false	8.69 KB	
+Merchants	200	false	231.08 KB	
+OrderNotifications	474	false	253.55 KB	
+Orders	1,687	false	907.27 KB	
+PostHistories	1,292	false	614.47 KB	
+prod	1	false	8.97 KB	
+Questions	59	false	31.06 KB	
+Redemptions	399	false	117.47 KB	
+Reports	550	false	1.88 MB	
+Reports_copy	40	false	403.86 KB	
+Scheduler	323	false	238.91 KB	
+Segment	11	false	16.06 KB	
+SegmentTags	11	false	12.06 KB	
+Sessions	0	false	7.98 KB	
+SignUps	6	false	8.58 KB	
+tuktuk	4,571	false	259.14 MB	
+UserDevice	23	false	15.88 KB	
+Users	5,416	false	2.39 MB	
+users	1,764	false	8.88 MB	
+Users2	0	false	7.98 KB	
+Users_copy	3,986	false	1.63 MB	
+Users_gt_feb_18	3,274	false	1.29 MB	
+Vendors	8	false	11.36 KB	
+Wallets	118	false	71.63 KB	
+System Collections
+Name 	Documents 	Size
+system.indexes	55	8.39 KB	
